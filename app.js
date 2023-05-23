@@ -14,6 +14,9 @@ app.get("/suit", (req, res) => {
     res.render("suit")
 })
 
+app.get('/login', (req, res, next) => {
+    res.render('login', { title: 'Login' });
+});
 
 
 
